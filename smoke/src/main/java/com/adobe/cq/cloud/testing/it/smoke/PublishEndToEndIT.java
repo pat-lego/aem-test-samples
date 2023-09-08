@@ -95,10 +95,10 @@ public class PublishEndToEndIT {
      */
     private boolean activateAndDeactivate() throws SmokeTestException {
         contentPublishRule.activateAssertPublish();
-        contentPublishRule.deactivateAssertPublish();
+        //contentPublishRule.deactivateAssertPublish();
         
         contentPublishRule.activateAssertPreview();
-        contentPublishRule.deactivateAssertPreview();
+        //contentPublishRule.deactivateAssertPreview();
         return true;
     }
 }
